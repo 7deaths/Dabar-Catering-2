@@ -333,7 +333,7 @@ header {
 
 @media (max-width: 880px){
     section {
-        padding: 4rem 0 3rem;  
+         padding: 4rem 0 3rem;   
     }
     .services{
         grid-template: repeat(auto-fit,minmax(200px,auto));
@@ -387,6 +387,10 @@ header {
     .newsletter h2{
         font-size: 1.4rem;
     }
+    .footer{
+        width: 100%;
+        display: flex;
+    }
 }
 
 @media (max-width: 638px){
@@ -421,8 +425,9 @@ header {
         align-self: center;
     }
     .footer{
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
         margin-top: 2rem;
+        width: 100%;
     }
     .footer_box{
         display: flex;
@@ -523,13 +528,14 @@ header {
         width: 150px;
     }
     .footer .container{
-        width: 100%; 
-       /* margin-left: 1.8rem; */
+        width: 100%;
+       margin-left: 1.8rem;
        /* margin-right: 8rem; */
        align-self: center;
    }
    .footer{
-       margin-left: 3rem;
+       width: 100%;
+       /* margin-left: 3rem; */
        margin-top: 3rem;
        margin-bottom: 0;
    }
@@ -543,8 +549,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem 1rem 2rem 2rem;
-    margin-right: 3rem;
+    /* margin: 2rem 1rem 2rem 2rem; */
+    /* margin-right: 3rem; */
 
     padding: 20px;
     text-align: center;
